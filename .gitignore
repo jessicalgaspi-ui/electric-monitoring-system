@@ -1,17 +1,38 @@
-# Python bytecode and virtual environments
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 .venv/
-*.pyc
+venv/
+ENV/
+env/
 
-# Local Databases
-*.db
-*.sqlite3
-smart_grid.db
+# Streamlit and environment secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
 
-# Exported Reports and Visuals
-*.html
-*.pdf
-*.png
-reports_output/
-hide/*.png
-hide/*.pdf
+# Local database and generated reports/charts
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/charts/*.png
+data/reports/*.pdf
+data/reports/*.md
+data/reports/*.csv
+
+# Editors and operating-system files
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+*.log
