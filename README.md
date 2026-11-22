@@ -90,7 +90,7 @@ On some systems, use `py` instead of `python`.
 Using Git:
 
 ```powershell
-git clone [https://github.com/aldwyndelmendo2-hue/electric-monitoring-system.git](https://github.com/aldwyndelmendo2-hue/electric-monitoring-system.git)
+git clone https://github.com/jessicalgaspi-ui/electric-monitoring-system.git
 cd electric-monitoring-system
 ```
 
