@@ -226,9 +226,9 @@ Important files and directories in the repository:
 | `app.py` | Main Streamlit dashboard application and page views |
 | `database.py` | SQLite initialization, schema migrations, queries, and `--reset` seeding support |
 | `executive_report.py` | Generates and regenerates the Markdown executive summary report |
-| `data/electricity_monitor.db` | Local SQLite database file (initialized automatically on startup) |
+| `data/electricity_monitor.db` | Local SQLite database file |
 | `.streamlit/secrets.toml.example` | Example Streamlit secrets file containing credential placeholders |
-| `.streamlit/secrets.toml` | Local administrator credentials file (not committed to Git) |
+| `.streamlit/secrets.toml` | Local administrator credentials file |
 | `requirements.txt` | Python package dependencies |
 
 Other helper or report files may be present in the repository depending on your working tree.
